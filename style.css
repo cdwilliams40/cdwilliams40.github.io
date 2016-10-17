@@ -1,0 +1,102 @@
+body {
+margin:0px;
+}
+
+.nav {
+position:fixed;
+top:0px;
+left:0px;
+font-family:Raleway;
+font-size:100%;
+background-color:#243eb0;
+width:100%;
+height:50px;
+z-index:2;
+}
+
+.nav li {
+ display:inline;
+ list-style-type:none;
+ }
+
+.nav .nav-left a {
+  position:fixed;
+  top:16px;
+  left:5%;
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.nav .nav-right a {
+position:fixed;
+top:16px;
+left:90%;
+color:#ffffff;
+text-decoration:none;
+}
+
+.jumbotron {
+background-image:url("./assets/space.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#ffffff;
+height:600px;
+z-index:1;
+}
+
+.jumbotron h1 {
+font-family:Oswald;
+color:#ffffff;
+font-size:400%;
+text-align:center;
+position:relative;
+top:150px;
+}
+
+.jumbotron h3 {
+font-family:Raleway;
+color:#ffffff;
+font-size:200%;
+text-align:center;
+position:relative;
+top:150px;
+}
+
+.mail {
+position:relative;
+top:75px;
+left:20%;
+width:60%;
+}
+
+.footer {
+padding-top: 15px;
+margin:30px;
+text-align: center;
+}
+
+.footer-left {
+float:left;
+}
+
+.footer-center {
+float:center;
+}
+
+.footer-right {
+float:right;
+}
+
+.info {
+  padding: 15px;
+}
+
+.info h4{
+color: #243eb0;
+}
+
+@media (max-width: 991px){
+  .invisible{
+    display: none;
+  }
+}
